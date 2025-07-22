@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2fa51b85e86473f4e822dddafbee4976
+  - enabled: 1
+    path: Assets/Scenes/FootballScene.unity
+    guid: b13eaa8309ae65743a8bdad07d790b4b
+  - enabled: 1
+    path: Assets/Scenes/BasketballScene.unity
+    guid: 8b5807c4ac8e2694884e001831d814b1
+  - enabled: 1
+    path: Assets/Scenes/VolleyballScene.unity
+    guid: 51fba88ffa272304782908ae315c5b0c
+  - enabled: 1
+    path: Assets/Scenes/TennisScene.unity
+    guid: f85f32838dde7c6438f606dd0dd94085
+  - enabled: 1
+    path: Assets/Scenes/VacationScene.unity
+    guid: cb52e5a904076104d8dbb244a58e47f0
+  - enabled: 1
+    path: Assets/Scenes/CatSecene.unity
+    guid: a2fad6c4e451c5a4ea8cccf2fd54ffb2
+  - enabled: 1
+    path: Assets/Scenes/BowlingSence.unity
+    guid: 6cbfc9df5dde7fe49b02b8d64811a034
+  - enabled: 1
+    path: Assets/Scenes/DiscoScene.unity
+    guid: 4e00b57363b81b04da6d8f2a5f634fe5
+  - enabled: 1
+    path: Assets/Scenes/GardenScene.unity
+    guid: 277ff438fb359d54d9c81b57996a72cb
+  - enabled: 1
+    path: Assets/Scenes/BudaScene.unity
+    guid: 5b8058933c882db4786125930c70ab6e
+  - enabled: 1
+    path: Assets/Scenes/WaterScene.unity
+    guid: 9b68f1bbb7170ac418a004f5fd1825c9
+  - enabled: 1
+    path: Assets/Scenes/LabratoryScene.unity
+    guid: b89139a16da7f894e9afccc630135bfa
+  - enabled: 1
+    path: Assets/Scenes/AlienScene.unity
+    guid: b368c9afe7f0a944087ab58cdfe9296b
+  - enabled: 1
+    path: Assets/Scenes/SunScene.unity
+    guid: c04022ea188356048890907812e5ddc2
+  - enabled: 1
+    path: Assets/Scenes/FiredScene.unity
+    guid: b3e09a3c26a55ed4288f0bef873aa064
+  - enabled: 1
+    path: Assets/Scenes/MagmaScene.unity
+    guid: 5c6b6cee694ec154188b613abf9e871c
+  - enabled: 1
+    path: Assets/Scenes/GalexyScene.unity
+    guid: 6746d6c4452aa97499b0d22f89d866b1
+  - enabled: 1
+    path: Assets/Scenes/GoldenScene.unity
+    guid: 6dacae38c0f0296479ad8ab952a59f44
+  - enabled: 1
+    path: Assets/Scenes/GodScene.unity
+    guid: c44e22839f9ca6348abcaa4b2f56be4d
+  m_configObjects: {}
