@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3efe340d3c23e8246ab8580d0c33903b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitForceMultiplier: 15
+  hitForceMultiplier: 0
   velocityImpactMultiplier: 0.5
   maxHitForce: 25
   offscreenIndicator: {fileID: 1262888516}
@@ -918,6 +918,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 209921573}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 0
+  nextLevelUnlockKey: FootballUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

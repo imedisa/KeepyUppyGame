@@ -1086,6 +1086,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 447715069}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 370
+  nextLevelUnlockKey: GodUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

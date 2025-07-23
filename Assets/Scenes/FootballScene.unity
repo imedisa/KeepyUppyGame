@@ -777,6 +777,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 1201560229}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 20
+  nextLevelUnlockKey: BasketballUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

@@ -861,6 +861,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 794965744}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 320
+  nextLevelUnlockKey: GalaxyUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

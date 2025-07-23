@@ -777,6 +777,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 963702581}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 60
+  nextLevelUnlockKey: TennisUnlocked
 --- !u!1 &540309880
 GameObject:
   m_ObjectHideFlags: 0

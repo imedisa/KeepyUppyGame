@@ -861,6 +861,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 1927312538}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 220
+  nextLevelUnlockKey: LabratoryUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

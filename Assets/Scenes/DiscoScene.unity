@@ -945,6 +945,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 821775982}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 160
+  nextLevelUnlockKey: GardenUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

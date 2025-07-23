@@ -777,6 +777,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 1053763533}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 180
+  nextLevelUnlockKey: BudaUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // <<-- [اصلاح] این خط برای حل خطا اضافه شده است
 
 public class BallController : MonoBehaviour
 {
@@ -102,16 +102,16 @@ public class BallController : MonoBehaviour
             rb.AddForce(direction.normalized * finalHitForce, ForceMode2D.Impulse);
         }
     }
-    
+
     // Game Over Logic
+    // در فایل BallController.cs
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Ground"))
         {
-            // ▼▼▼ [این خط تغییر کرده است] ▼▼▼
-            // به جای شروع مجدد، به منوی اصلی برمی‌گردیم
-            SceneManager.LoadScene("MainMenu");
-            // ▲▲▲ [پایان تغییر] ▲▲▲
+            // وقتی بازی تمام می‌شود، فقط به منوی اصلی برمی‌گردیم
+            // تمام منطق ذخیره امتیاز در GameManager انجام شده است
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
         }
     }
 }

@@ -1002,6 +1002,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 154452920}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 260
+  nextLevelUnlockKey: AlienUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,31 +3,25 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    // --- متغیرهای عمومی (باید در Inspector وصل شوند) ---
+    [Header("اتصالات UI و آبجکت‌ها")]
     public TextMeshProUGUI scoreText;
     public BallController ball;
     public ShoeController shoe;
 
-    // --- متغیرهای داخلی ---
+    [Header("هدف این مرحله")]
+    public int scoreToAchieve;          // امتیازی که بازیکن در این مرحله باید به آن برسد
+    public string nextLevelUnlockKey;   // کلید مرحله بعدی که با رسیدن به هدف، باز می‌شود
+
     private int score = 0;
-    private int highScore = 0;
     private bool gameStarted = false;
 
     void Start()
     {
-        // خواندن رکورد از حافظه گوشی
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
-        
-        // تنظیم متن اولیه امتیاز
-        if (scoreText != null)
-        {
-            scoreText.text = "0";
-        }
+        if (scoreText != null) scoreText.text = "0";
     }
 
     void Update()
     {
-        // منتظر اولین کلیک/لمس برای شروع بازی
         if (!gameStarted && Input.GetMouseButtonDown(0))
         {
             StartGame();
@@ -36,18 +30,9 @@ public class GameManager : MonoBehaviour
 
     void StartGame()
     {
-        // این متغیر را true می‌کنیم تا بازی دوباره با کلیک‌های بعدی ری‌استارت نشود
         gameStarted = true;
-        
-        // به توپ و کفش دستور فعال شدن می‌دهیم
-        if (ball != null)
-        {
-            ball.StartFalling();
-        }
-        if (shoe != null)
-        {
-            shoe.ActivateMovement();
-        }
+        if (ball != null) ball.StartFalling();
+        if (shoe != null) shoe.ActivateMovement();
     }
 
     public void AddScore()
@@ -55,12 +40,20 @@ public class GameManager : MonoBehaviour
         score++;
         scoreText.text = score.ToString();
 
-        // چک کردن برای ثبت رکورد جدید
-        if (score > highScore)
+        // اگر بازیکن به امتیاز هدف این مرحله رسید
+        if (score >= scoreToAchieve)
         {
-            highScore = score;
-            PlayerPrefs.SetInt("HighScore", highScore);
-            Debug.Log("رکورد جدید ثبت شد: " + highScore);
+            // و اگر کلیدی برای مرحله بعد تعریف شده باشد
+            if (!string.IsNullOrEmpty(nextLevelUnlockKey))
+            {
+                // فقط در صورتی که این کلید قبلاً ثبت نشده، آن را ثبت کن
+                if (PlayerPrefs.GetInt(nextLevelUnlockKey, 0) == 0)
+                {
+                    PlayerPrefs.SetInt(nextLevelUnlockKey, 1);
+                    PlayerPrefs.Save();
+                    Debug.Log("مرحله " + nextLevelUnlockKey + " باز شد!");
+                }
+            }
         }
     }
 }

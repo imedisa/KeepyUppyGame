@@ -859,9 +859,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 74142634}
-  nextLevelUnlockKey: VolleyballUnlockedVolleyballUnlocked
   ball: {fileID: 937260877}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 40
+  nextLevelUnlockKey: VolleyballUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

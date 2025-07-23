@@ -1002,6 +1002,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 484938652}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 120
+  nextLevelUnlockKey: BowlingUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

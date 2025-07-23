@@ -592,69 +592,91 @@ MonoBehaviour:
   allLevels:
   - displayImage: {fileID: 21300000, guid: 85b14d78d857b764f92d8bf6e26e6b9c, type: 3}
     scoreToUnlock: 0
+    unlockKey: 
     sceneNameToLoad: VacationScene
   - displayImage: {fileID: 21300000, guid: c70590bcf9dd8a74aa6d4ff8d26d809b, type: 3}
     scoreToUnlock: 20
+    unlockKey: FootballUnlocked
     sceneNameToLoad: FootballScene
   - displayImage: {fileID: 21300000, guid: 405f48731b8e77d40af9184a80daa021, type: 3}
     scoreToUnlock: 40
+    unlockKey: BasketballUnlocked
     sceneNameToLoad: BasketballScene
   - displayImage: {fileID: 21300000, guid: 291c21d8561244246b63c04236e03da6, type: 3}
     scoreToUnlock: 60
+    unlockKey: VolleyballUnlocked
     sceneNameToLoad: VolleyballScene
   - displayImage: {fileID: 21300000, guid: 398ac8625a50d7d4cb2561e0fed6fc77, type: 3}
     scoreToUnlock: 80
+    unlockKey: TennisUnlocked
     sceneNameToLoad: TennisScene
   - displayImage: {fileID: 21300000, guid: 4082081ed1b47614f848f086ff31781f, type: 3}
     scoreToUnlock: 100
+    unlockKey: CatUnlocked
     sceneNameToLoad: CatScene
   - displayImage: {fileID: 21300000, guid: 7a3c879ad5a5b2447b22b9a09b052374, type: 3}
     scoreToUnlock: 120
-    sceneNameToLoad: BilliardsScene
+    unlockKey: BilliardsUnlocked
+    sceneNameToLoad: BilliardsSenece
   - displayImage: {fileID: 21300000, guid: dd8a899206e260e4689a520719d05cec, type: 3}
     scoreToUnlock: 140
+    unlockKey: BowlingUnlocked
     sceneNameToLoad: BowlingScene
   - displayImage: {fileID: 21300000, guid: 38bdaffd50b17df46a56bc15e41d8b91, type: 3}
     scoreToUnlock: 160
+    unlockKey: DiscoUnlocked
     sceneNameToLoad: DiscoScene
   - displayImage: {fileID: 21300000, guid: 0bd0dcd4cb2449c4fa3bbd947d3e7bdd, type: 3}
     scoreToUnlock: 180
+    unlockKey: GardenUnlocked
     sceneNameToLoad: GardenScene
   - displayImage: {fileID: 21300000, guid: 3f01657cf57347e498f335db57a176d8, type: 3}
     scoreToUnlock: 200
+    unlockKey: BudaUnlocked
     sceneNameToLoad: BudaScene
   - displayImage: {fileID: 21300000, guid: 0e37b7c8719257f48849b3fc14f220e8, type: 3}
     scoreToUnlock: 220
+    unlockKey: WaterUnlocked
     sceneNameToLoad: WaterScene
   - displayImage: {fileID: 21300000, guid: 0a965aa74c5aab24b9edaf8f86056558, type: 3}
     scoreToUnlock: 240
+    unlockKey: LabratoryUnlocked
     sceneNameToLoad: LabratoryScene
   - displayImage: {fileID: 21300000, guid: e4f21e5eae70fe642aa7bebc5c69f61d, type: 3}
     scoreToUnlock: 260
+    unlockKey: FiredUnlocked
     sceneNameToLoad: FiredScene
   - displayImage: {fileID: 21300000, guid: 531e343dd6b1b224d84b6c9a404c88a2, type: 3}
     scoreToUnlock: 280
+    unlockKey: AlienUnlocked
     sceneNameToLoad: AlienScene
   - displayImage: {fileID: 21300000, guid: e289f3de8b2df704e8bb3ca4aa9ae52c, type: 3}
     scoreToUnlock: 300
+    unlockKey: MagmaUnlocked
     sceneNameToLoad: MagmaScene
   - displayImage: {fileID: 21300000, guid: 4aec039dd66e9aa4fa2657fd5084573a, type: 3}
     scoreToUnlock: 320
+    unlockKey: SunUnlocked
     sceneNameToLoad: SunScene
   - displayImage: {fileID: 21300000, guid: 79fa97650074d63448128b05c1ebad29, type: 3}
     scoreToUnlock: 340
+    unlockKey: GalaxyUnlocked
     sceneNameToLoad: GalaxyScene
   - displayImage: {fileID: 21300000, guid: efda3cbc9186201438d29248455a437d, type: 3}
     scoreToUnlock: 370
+    unlockKey: GoldenUnlocked
     sceneNameToLoad: GoldenScene
   - displayImage: {fileID: 21300000, guid: 703a69dbc9339ca45abf4b755fddeb02, type: 3}
     scoreToUnlock: 400
+    unlockKey: GodUnlocked
     sceneNameToLoad: GodScene
   prevBallImage: {fileID: 768494766}
   currentBallImage: {fileID: 1232231356}
   nextBallImage: {fileID: 579099054}
-  startButton: {fileID: 168880129}
   unlockScoreText: {fileID: 442255043}
+  startButton: {fileID: 168880129}
+  nextButton: {fileID: 324796603}
+  prevButton: {fileID: 1152363122}
 --- !u!1 &324796601
 GameObject:
   m_ObjectHideFlags: 0

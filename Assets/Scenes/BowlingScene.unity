@@ -777,6 +777,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 928584965}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 140
+  nextLevelUnlockKey: DiscoUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0

@@ -861,6 +861,8 @@ MonoBehaviour:
   scoreText: {fileID: 74142634}
   ball: {fileID: 1904263291}
   shoe: {fileID: 460153590}
+  scoreToAchieve: 340
+  nextLevelUnlockKey: GoldenUnlocked
 --- !u!1 &575452183
 GameObject:
   m_ObjectHideFlags: 0
